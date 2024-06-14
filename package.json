@@ -1,0 +1,30 @@
+{
+  "name": "examples-next-minimal",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint --cache --ext \".js,.ts,.tsx\" src",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.24",
+    "@tanstack/react-query": "^5.45.0",
+    "@trpc/client": "11.0.0-rc.401",
+    "@trpc/next": "11.0.0-rc.401",
+    "@trpc/react-query": "11.0.0-rc.401",
+    "@trpc/server": "11.0.0-rc.401",
+    "ai": "^3.1.31",
+    "next": "^14.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.4.0"
+  }
+}
